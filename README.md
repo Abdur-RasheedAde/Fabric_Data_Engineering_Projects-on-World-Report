@@ -1,6 +1,6 @@
 # World Report Fabric_Data_Engineering_Projects
 
-![Slide1](https://github.com/Abdur-RasheedAde/Fabric_Data_Engineering_Projects/blob/main/DEArchitecture.png)
+![Slide1](https://github.com/Abdur-RasheedAde/World_Report_Data_Engineering_Project-Fabric-/blob/main/DE_Architecture.JPG)
 
 ##  Project Overview
 This is a complete End-to-End Fabric Data Engineering project where PDF, Excel Power Query, Python Beautiful Soup, SQL, Pyspark, lake House and Power BI are explored. The project ingest data from multiple sources like the web, pdf and csv into the Fabric Lake house, created a robust Data pipeline in Fabric for the ETL process and stored the data in a LakeHouse Table from where Power BI Visualization Report was built. 
