@@ -27,37 +27,33 @@ This is a complete End-to-End Fabric Data Engineering project where PDF, Excel P
 -  remove the "$" and "," in some columns
 -  joining of multiple tables
 -  Correcting the names of some Countires like Algerie, USA, UAE...\
-The refined joined data was loaded to a LakeTable for Analytics Purposes.\
-1. [View first_Pyhton codes here](https://github.com/Abdur-RasheedAde/Fabric_Data_Engineering_Projects/blob/main/World_Data.ipynb)
-2. [View second_pyhton codes here](https://github.com/Abdur-RasheedAde/Fabric_Data_Engineering_Projects/blob/main/World_Continent.ipynb)
+The well transforemd final data was loaded to a LakeTable for Analytics Purposes.
+-  [View first_Pyhton codes here](https://github.com/Abdur-RasheedAde/Fabric_Data_Engineering_Projects/blob/main/World_Data.ipynb)
+-  [View second_pyhton codes here](https://github.com/Abdur-RasheedAde/Fabric_Data_Engineering_Projects/blob/main/World_Continent.ipynb)
 
-
-A copy of the exported data from the temTable is also here [Exported_Table](https://github.com/Abdur-RasheedAde/Complete_Azure_DE_Pizza_Project/blob/main/Final_Exported_Pizzadata.csv)
-5. Data Visualization with PowerBI: The Analytical reported created was linked to Power BI Desktop the development environment for the Visualization Report. This Visualization is an extnesive one as it has 6 major KPIs that are measured in the Report.
+4. Data Visualization with PowerBI: A Power BI Report was built directly from the loaded LakeHouse Tables with KPIs ranging from Population metrics, to LandArea and Fertility Rate. The Power Bi is also hosted within the workspace and all data modeling and report building were done in the cloud. 
 
 ## KPI Building 
 While creating building the visualization, the following KPIs were considered;
-1. Total Pizza Sold
-2. Total Orders, total revenue, Average pizza per order
-3. Monthly Pizza Sales
-4. Daily, hourly trend of sales
-5. Sales by pizza category and pizza size
-6. Top 5 Order pizza
+1. Top and Bottom Countries by Population
+2. Top and Bottom COuntries by LandArea
+3. Top and Bottom COuntries by Fertility Rate
+4. Countries, Capital, Currency, President and Prime Minister
 
 ## Report Design and Visualization
 The Report Canvas was designed in Power Point and imported to PowerBI as canvas background. Here is a sample of the slide in Power Point   
 <img src="https://github.com/Abdur-RasheedAde/Complete_Azure_DE_Pizza_Project/blob/main/Slide1.PNG" width=75% height=75%>  
-6 pages were created; Includig each for the Piza_Category (Supreme, Veggie, Classic and Chicken), a consolidated page and an home page. \
-_Home_ page is the landing page while _Consolidated_ has the general report without filter while other pages has filtered reports accroding to their page name.
-On each page, the new card visual is used to hold Total Sales, Quantity and Average_Unit_Price, Line Chart is used for the series analysis while a column and bar chart are adopted for the Pizza_size and Top 5 Pizza Ordered analysis. The last image is the button for page navigation. 
-
-A sample of the consolidated page is below:
+5 pages were created; Includig each for the KPIs above and a home page.\
+The _Home_ page is the landing page with page navigation to other pages.
+On each page, a map visual and bar chart were explored along with a Matrix table.
+A sample of the home page is below:
 <img src="https://github.com/Abdur-RasheedAde/Complete_Azure_DE_Pizza_Project/blob/main/Homevisual.PNG" width=75% height=75%>  
 Link to the dashboard is here 👉 [Click to view PowerBI Report](https://app.powerbi.com/view?r=eyJrIjoiMzgwMjA2YWItNzhmMi00NDU5LTlkMTYtOTA1Y2Y1ODliZTFhIiwidCI6IjMyNzk2YmUyLTYwZmItNGRhMi04ZDI2LTA2ZTU5MzhlNmU2YiIsImMiOjh9)
 
 ## Conclusions 
-1. Azure Data Synapse is a comprehensive Azure service that unifies all Azure data services in one space including databricks from ingestion (ADF) to data warehousing and visualizatio (PowerBI)
-2. Databricks is one of the leading cloud big data Softaware as a service (SaaS) for big Data supporting both Python and SQL.
-3. It is awesome for Data warehousing and ETL process and simple visualization dashboard.
+1. Microsoft Fabric is one-stop shop that replicate all Azure Data Services (known as items in Fabric) in one space. These items include DataFactory, Power BI, LakeHouse, Notebooks, Pipeline and so on. 
+2. It can iterract with all internal and external data sources like Azure, AWS, GCP, Dataverse and coud services like Databricks, Snowflake and others.
+3. It extensively supports SQL, Python, Scala and java Programming Languages
+4. It is awesome for Data warehousing and ETL process and visualization.
 
-Thanks for taking time to go through this report! and I am open to collaborate with you on any Data Engineering projects exploring Azure data services or other cloud big data platforms especially Databricks, Snowflake, AWS and GCP, you can always reach me on adeoyerasheed30@gmail.com Ciao 🤝
+Thanks for taking time to go through this report! and I am open to collaborate with you on any Data Engineering projects exploring Fabric, Azure data services or other cloud big data platforms especially Databricks, Snowflake, AWS and GCP, you can always reach me on adeoyerasheed30@gmail.com Ciao 🤝
