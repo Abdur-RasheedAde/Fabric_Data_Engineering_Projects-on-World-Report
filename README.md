@@ -3,27 +3,38 @@
 ![Slide1](https://github.com/Abdur-RasheedAde/Fabric_Data_Engineering_Projects/blob/main/DEArchitecture.png)
 
 ##  Project Overview
-This is a complete End-to-End Fabric Data Engineering project where PDF, Excel Power Query, Python Beautiful Soup, SQL, Pyspark, lake House and Power BI are explored. The project ingest data from multiple sources like the web, pdf and csv into the Fabric Lake house, created a robust Data pipeline in Fabric for the ETL process and stored the data in a LakeHouse where Visualization Report got it's data source. 
+This is a complete End-to-End Fabric Data Engineering project where PDF, Excel Power Query, Python Beautiful Soup, SQL, Pyspark, lake House and Power BI are explored. The project ingest data from multiple sources like the web, pdf and csv into the Fabric Lake house, created a robust Data pipeline in Fabric for the ETL process and stored the data in a LakeHouse Table from where Power BI Visualization Report was built. 
 
 ## Data Source:
-A pizza_store _data is used which was ingested as a csv file into the SQL server Database;  
-* The Pizza_Store Data is here 👉 [Download Pizza data_here](https://github.com/Abdur-RasheedAde/Complete_Azure_DE_Pizza_Project/blob/main/pizza_sales.csv)
+1.  Web:Data were scrapped from www.worldometers, catking.in and www.geeksforgeeks
+2.  PDF: A pdf file was downloaded from this website [Click to download pdf] (https://www.miles-and-more.com/content/dam/mmg/pdf/191029_BLOOM_Laendertabelle_EN_FINAL.pdf)
+3.  Json: Data was also extracted from this json file 👉 [Download_json_file](https://github.com/Abdur-RasheedAde/Fabric_Data_Engineering_Projects/blob/main/continent-populations.json)
 
 ## DE Technical Skills:
 + Data Ingestion
 + Data Pipeline
-+ Azure Services: Blob Storage, Data Factory, SQL DB
-+ Databricks and Power BI
++ Fabric Data Storage: Lake House, Beautiful Soup library, Excel Power Query 
 + Data Warehousing; Analytics Reporting
 + Extract, Transform and Load (ETL) process
 + Some Power BI Data Visualization technical skills (Documentation, Data Gathering, Power Query, Data Modelling, Report Design, Data Analysis Expression (DAX), Page Navigation and Button, Business and Analytics Reporting, Performance Optimization, Deployment and Power BI Service, Scalability)
 + Feedback and Continuous Improvement
   
 ## Data Engineering Process
-1. Ingestion of Data into the SQL Database: This was accomplished with Import File method in SQL Server with inheritance of all data schema 
-2. Creation of Linked Services in ADF: A Linked service was created in ADF to directly extract the table from the SQL Server; After which it was copied into another link service with the help of another Liked service. The Data is now restored in a container in Azure blob storage. 
-3. Data Warehousing in Databricks: This same data is ingested into Databricks so as to create the appropriate analytical report as KPI demands. The Azure blob storage was mounted in databricks, data extracted and  a Temptable was created with only the relevant fields, this will propell faster runnig of the Report and reduce cosumed capacity thereby saving cost. This Temp table was used to created another table to be used for the Visualization in power BI. [Get the Pyhton codes here](https://github.com/Abdur-RasheedAde/Complete_Azure_DE_Pizza_Project/blob/main/Azure_Data_Engineering_Project.ipynb) A copy of the exported data from the temTable is also here [Exported_Table](https://github.com/Abdur-RasheedAde/Complete_Azure_DE_Pizza_Project/blob/main/Final_Exported_Pizzadata.csv)
-4. Data Visualization with PowerBI: The Analytical reported created was linked to Power BI Desktop the development environment for the Visualization Report. This Visualization is an extnesive one as it has 6 major KPIs that are measured in the Report.
+1. Data Ingestion: Data was ingested from multiple sources like web, pdf and json with the help of beautiful soup library, Excel Power Query and Pyspark respectively. the pdf file was loaded to Excel with the use of Power Query which extracted the data effortlessly and it was saved as a csv file for Lakehouse storage.  
+2. Creation of Lake House: A Lakehouse known as World_Data_Project Lakehouse was created in OneLake to encapsulate all the Data Engineering items.
+3. ETL Process: The whole Extract Transform and Load Processes were done in 2 Jupyter Notebooks in the Lakehouse with the use of Beautiful Soup library, pyspark and Pandas library. The Transformation includes and not limited to:
+-  Change data type and Column names of some columns
+-  remove the "$" and "," in some columns
+-  joining of multiple tables
+-  Correcting the names of some Countires like Algerie, USA, UAE...
+-  Chalace of some Country names with the correct
+The refined joined data was loaded to a LakeTable for Analytics Purposes.
+[View first_Pyhton codes here](https://github.com/Abdur-RasheedAde/Fabric_Data_Engineering_Projects/blob/main/World_Data.ipynb)
+[View second_pyhton codes here](https://github.com/Abdur-RasheedAde/Fabric_Data_Engineering_Projects/blob/main/World_Continent.ipynb)
+
+
+A copy of the exported data from the temTable is also here [Exported_Table](https://github.com/Abdur-RasheedAde/Complete_Azure_DE_Pizza_Project/blob/main/Final_Exported_Pizzadata.csv)
+5. Data Visualization with PowerBI: The Analytical reported created was linked to Power BI Desktop the development environment for the Visualization Report. This Visualization is an extnesive one as it has 6 major KPIs that are measured in the Report.
 
 ## KPI Building 
 While creating building the visualization, the following KPIs were considered;
