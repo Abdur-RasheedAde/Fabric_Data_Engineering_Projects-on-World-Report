@@ -36,19 +36,17 @@ The well transforemd final data was loaded to a LakeTable for Analytics Purposes
 ## KPI Building 
 While creating building the visualization, the following KPIs were considered;
 1. Top and Bottom Countries by Population
-2. Top and Bottom COuntries by LandArea
-3. Top and Bottom COuntries by Fertility Rate
+2. Top and Bottom Countries by LandArea
+3. Top and Bottom Countries by Fertility Rate
 4. Countries, Capital, Currency, President and Prime Minister
 
 ## Report Design and Visualization
-The Report Canvas was designed in Power Point and imported to PowerBI as canvas background. Here is a sample of the slide in Power Point   
-<img src="https://github.com/Abdur-RasheedAde/Complete_Azure_DE_Pizza_Project/blob/main/Slide1.PNG" width=75% height=75%>  
-5 pages were created; Includig each for the KPIs above and a home page.\
-The _Home_ page is the landing page with page navigation to other pages.
-On each page, a map visual and bar chart were explored along with a Matrix table.
-A sample of the home page is below:
-<img src="https://github.com/Abdur-RasheedAde/Complete_Azure_DE_Pizza_Project/blob/main/Homevisual.PNG" width=75% height=75%>  
-Link to the dashboard is here 👉 [Click to view PowerBI Report](https://app.powerbi.com/view?r=eyJrIjoiMzgwMjA2YWItNzhmMi00NDU5LTlkMTYtOTA1Y2Y1ODliZTFhIiwidCI6IjMyNzk2YmUyLTYwZmItNGRhMi04ZDI2LTA2ZTU5MzhlNmU2YiIsImMiOjh9)
++ The Report Canvas was designed in Power Point and imported to PowerBI as canvas background. Here is a sample of the slide in Power Point.
++ 5 pages were created; Includig each for the KPIs above and a home page.
++ The _Home_ page is the landing page with page navigation to other pages.
++ On each page, a map visual and bar chart were explored along with a Matrix table.
++ A sample of the home page is below:
+Link to the dashboard is here 👉 [Click to view PowerBI Report](https://app.fabric.microsoft.com/groups/29456d2a-e1f3-4e67-91a9-41bc1e4fe5d1/reports/820d6455-aae0-4125-82d5-85f5e26b1430/cb1051de495b69a10c08?experience=power-bi)
 
 ## Conclusions 
 1. Microsoft Fabric is one-stop shop that replicate all Azure Data Services (known as items in Fabric) in one space. These items include DataFactory, Power BI, LakeHouse, Notebooks, Pipeline and so on. 
