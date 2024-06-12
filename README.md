@@ -3,10 +3,10 @@
 ![Slide1](https://github.com/Abdur-RasheedAde/World_Report_Data_Engineering_Project-Fabric-/blob/main/DE_Architecture.JPG)
 
 ##  Project Overview
-This is a complete End-to-End Fabric Data Engineering project where PDF, Excel Power Query, Python Beautiful Soup, SQL, Pyspark, lake House and Power BI are explored. The project ingest data from multiple sources like the web, pdf and csv into the Fabric Lake house, created a robust Data pipeline in Fabric for the ETL process and stored the data in a LakeHouse Table from where Power BI Visualization Report was built. 
+This is a complete End-to-End Fabric Data Engineering project where PDF, Excel Power Query, Python Beautiful Soup, SQL, Pyspark, lake House and Power BI were explored. The project ingested data from multiple sources like the web, pdfy,json and csv into the Fabric Lake house, created a robust Data pipeline in Fabric for the ETL process and stored the data in a LakeHouse Table from where Power BI Visualization Report was built. 
 
 ## Data Source:
-1.  Web:Data were scrapped from www.worldometers, catking.in and www.geeksforgeeks
+1.  Web: Data were scrapped from www.worldometers, catking.in and www.geeksforgeeks
 2.  PDF: A pdf file was downloaded from this website [Click to download pdf](https://www.miles-and-more.com/content/dam/mmg/pdf/191029_BLOOM_Laendertabelle_EN_FINAL.pdf)
 3.  Json: Data was also extracted from this json file 👉 [Download_json_file](https://github.com/Abdur-RasheedAde/Fabric_Data_Engineering_Projects/blob/main/continent-populations.json)
 
@@ -41,11 +41,13 @@ While creating building the visualization, the following KPIs were considered;
 4. Countries, Capital, Currency, President and Prime Minister
 
 ## Report Design and Visualization
-+ The Report Canvas was designed in Power Point and imported to PowerBI as canvas background. Here is a sample of the Home page in Power Point.
-<img src="https://github.com/Abdur-RasheedAde/World_Report_Data_Engineering_Project-Fabric-/blob/main/Home.JPG" width=75% height=75%> 
++ The Report Canvas was designed in Power Point and imported to PowerBI as canvas background.
 + 5 pages were created; Includig each for the KPIs above and a home page.
 + The _Home_ page is the landing page with page navigation to other pages.
 + On each page, a map visual and bar chart were explored along with a Matrix table.
++ Here is a sample of the Home page in Power Point.
+<img src="https://github.com/Abdur-RasheedAde/World_Report_Data_Engineering_Project-Fabric-/blob/main/Home.JPG" width=75% height=75%> 
+ 
 Link to the dashboard is here 👉 [Click to view PowerBI Report](https://app.fabric.microsoft.com/groups/29456d2a-e1f3-4e67-91a9-41bc1e4fe5d1/reports/820d6455-aae0-4125-82d5-85f5e26b1430/cb1051de495b69a10c08?experience=power-bi)
 
 ## Conclusions 
