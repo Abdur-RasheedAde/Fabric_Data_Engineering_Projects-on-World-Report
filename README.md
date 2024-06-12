@@ -7,7 +7,7 @@ This is a complete End-to-End Fabric Data Engineering project where PDF, Excel P
 
 ## Data Source:
 1.  Web:Data were scrapped from www.worldometers, catking.in and www.geeksforgeeks
-2.  PDF: A pdf file was downloaded from this website [Click to download pdf] (https://www.miles-and-more.com/content/dam/mmg/pdf/191029_BLOOM_Laendertabelle_EN_FINAL.pdf)
+2.  PDF: A pdf file was downloaded from this website [Click to download pdf](https://www.miles-and-more.com/content/dam/mmg/pdf/191029_BLOOM_Laendertabelle_EN_FINAL.pdf)
 3.  Json: Data was also extracted from this json file 👉 [Download_json_file](https://github.com/Abdur-RasheedAde/Fabric_Data_Engineering_Projects/blob/main/continent-populations.json)
 
 ## DE Technical Skills:
@@ -26,11 +26,10 @@ This is a complete End-to-End Fabric Data Engineering project where PDF, Excel P
 -  Change data type and Column names of some columns
 -  remove the "$" and "," in some columns
 -  joining of multiple tables
--  Correcting the names of some Countires like Algerie, USA, UAE...
--  Chalace of some Country names with the correct
-The refined joined data was loaded to a LakeTable for Analytics Purposes.
-[View first_Pyhton codes here](https://github.com/Abdur-RasheedAde/Fabric_Data_Engineering_Projects/blob/main/World_Data.ipynb)
-[View second_pyhton codes here](https://github.com/Abdur-RasheedAde/Fabric_Data_Engineering_Projects/blob/main/World_Continent.ipynb)
+-  Correcting the names of some Countires like Algerie, USA, UAE...\
+The refined joined data was loaded to a LakeTable for Analytics Purposes.\
+1. [View first_Pyhton codes here](https://github.com/Abdur-RasheedAde/Fabric_Data_Engineering_Projects/blob/main/World_Data.ipynb)
+2. [View second_pyhton codes here](https://github.com/Abdur-RasheedAde/Fabric_Data_Engineering_Projects/blob/main/World_Continent.ipynb)
 
 
 A copy of the exported data from the temTable is also here [Exported_Table](https://github.com/Abdur-RasheedAde/Complete_Azure_DE_Pizza_Project/blob/main/Final_Exported_Pizzadata.csv)
