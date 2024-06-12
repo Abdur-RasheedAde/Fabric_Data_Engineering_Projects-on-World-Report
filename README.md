@@ -41,11 +41,11 @@ While creating building the visualization, the following KPIs were considered;
 4. Countries, Capital, Currency, President and Prime Minister
 
 ## Report Design and Visualization
-+ The Report Canvas was designed in Power Point and imported to PowerBI as canvas background. Here is a sample of the slide in Power Point.
++ The Report Canvas was designed in Power Point and imported to PowerBI as canvas background. Here is a sample of the Home page in Power Point.
+<img src="https://github.com/Abdur-RasheedAde/World_Report_Data_Engineering_Project-Fabric-/blob/main/Home.JPG" width=75% height=75%> 
 + 5 pages were created; Includig each for the KPIs above and a home page.
 + The _Home_ page is the landing page with page navigation to other pages.
 + On each page, a map visual and bar chart were explored along with a Matrix table.
-+ A sample of the home page is below:
 Link to the dashboard is here 👉 [Click to view PowerBI Report](https://app.fabric.microsoft.com/groups/29456d2a-e1f3-4e67-91a9-41bc1e4fe5d1/reports/820d6455-aae0-4125-82d5-85f5e26b1430/cb1051de495b69a10c08?experience=power-bi)
 
 ## Conclusions 
