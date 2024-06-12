@@ -1,11 +1,9 @@
-# Fabric_Data_Engineering_Projects
+# World Report Fabric_Data_Engineering_Projects
 
-# Complete_Azure_DE_Pizza_Project
+![Slide1](https://github.com/Abdur-RasheedAde/Fabric_Data_Engineering_Projects/blob/main/DEArchitecture.png)
 
-![Slide1](https://github.com/Abdur-RasheedAde/Complete_Azure_DE_Pizza_Project/blob/main/AzureDEPizzaProject.png)
-
-##  Introduction
-This is a complete Azure Data Engineering End-to-end project exploring SQL Server, Azure Blob Storage, Azure Data Factory, Databricks and Power BI. The project ingest a csv file into the onprem SQL Database, created a Data pipeline in Azure Data Factory to Extract the data and reload into Azure Blob Storage so as to create an Analystical Report in Databricks and Visualization in Power BI. 
+##  Project Overview
+This is a complete End-to-End Fabric Data Engineering project where PDF, Excel Power Query, Python Beautiful Soup, SQL, Pyspark, lake House and Power BI are explored. The project ingest data from multiple sources like the web, pdf and csv into the Fabric Lake house, created a robust Data pipeline in Fabric for the ETL process and stored the data in a LakeHouse where Visualization Report got it's data source. 
 
 ## Data Source:
 A pizza_store _data is used which was ingested as a csv file into the SQL server Database;  
