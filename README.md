@@ -1,4 +1,4 @@
-# Fabric_Data_Engineering_Projects on World Report 
+# Fabric_Data_Engineering_Project on World Report 
 
 ![Slide1](https://github.com/Abdur-RasheedAde/World_Report_Data_Engineering_Project-Fabric-/blob/main/DE_Architecture.JPG)
 
