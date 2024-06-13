@@ -3,7 +3,7 @@
 ![Slide1](https://github.com/Abdur-RasheedAde/World_Report_Data_Engineering_Project-Fabric-/blob/main/DE_Architecture.JPG)
 
 ##  Project Overview
-This is a complete End-to-End Fabric Data Engineering project where PDF, Excel Power Query, Python Beautiful Soup, SQL, Pyspark, Lake House and Power BI were explored. The project ingested data from multiple sources like the web, pdf,json and csv into the Fabric Lake house, created a robust Data pipeline in Fabric for the ETL process and stored the data in a LakeHouse Table from where Power BI Visualization Report was built. 
+This is a complete End-to-End Fabric Data Engineering project where PDF, Excel Power Query, Python Beautiful Soup, SQL, Pyspark, Lake House and Power BI were explored. The project ingested data from multiple sources like the web, pdf, json and csv into the Fabric Lake house, created a robust Data pipeline in Fabric for the ETL process and stored the data in a LakeHouse Table from where Power BI Visualization Report was built. 
 
 ## Data Source:
 1.  Web: Data were scrapped from www.worldometers, catking.in and www.geeksforgeeks
@@ -48,7 +48,7 @@ While creating building the visualization, the following KPIs were considered;
 + Here is a sample of the Home page in Power Point.
 <img src="https://github.com/Abdur-RasheedAde/World_Report_Data_Engineering_Project-Fabric-/blob/main/Home.JPG" width=75% height=75%> 
  
-Link to the dashboard is here 👉 [Click to view PowerBI Report](https://app.fabric.microsoft.com/reportEmbed?reportId=d3f019d7-3e48-453a-a6ef-2bdb1d2cc92c&autoAuth=true&ctid=32796be2-60fb-4da2-8d26-06e5938e6e6b)
+Link to download PowrBI PDF Report is here 👉 [DownloadPDF](https://github.com/Abdur-RasheedAde/World_Report_Data_Engineering_Project-Fabric-/blob/main/World%20Data%20Report.pdf)
 
 ## Conclusions 
 1. Microsoft Fabric is one-stop shop that replicate all Azure Data Services (known as items in Fabric) in one space. These items include DataFactory, Power BI, LakeHouse, Notebooks, Pipeline and so on. 
