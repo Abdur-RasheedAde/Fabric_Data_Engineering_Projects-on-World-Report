@@ -48,7 +48,7 @@ While creating building the visualization, the following KPIs were considered;
 + Here is a sample of the Home page in Power Point.
 <img src="https://github.com/Abdur-RasheedAde/World_Report_Data_Engineering_Project-Fabric-/blob/main/Home.JPG" width=75% height=75%> 
  
-Link to the dashboard is here 👉 [Click to view PowerBI Report](https://app.fabric.microsoft.com/groups/29456d2a-e1f3-4e67-91a9-41bc1e4fe5d1/reports/820d6455-aae0-4125-82d5-85f5e26b1430/cb1051de495b69a10c08?experience=power-bi)
+Link to the dashboard is here 👉 [Click to view PowerBI Report](https://app.fabric.microsoft.com/reportEmbed?reportId=d3f019d7-3e48-453a-a6ef-2bdb1d2cc92c&autoAuth=true&ctid=32796be2-60fb-4da2-8d26-06e5938e6e6b)
 
 ## Conclusions 
 1. Microsoft Fabric is one-stop shop that replicate all Azure Data Services (known as items in Fabric) in one space. These items include DataFactory, Power BI, LakeHouse, Notebooks, Pipeline and so on. 
